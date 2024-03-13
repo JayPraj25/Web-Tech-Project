@@ -200,7 +200,6 @@ body.nav-active { overflow: hidden; }
 
 .container { padding-inline: 16px; }
 
-.hover-1,
 .hover-2 { transition: var(--transition-1); }
 
 .hover-1:is(:hover, :focus-visible) { 
@@ -403,32 +402,22 @@ body.nav-active { overflow: hidden; }
   padding-block: 10px;
 }
 
-.navbar-bottom {
-  padding-block: 30px 20px;
-  margin-block: 20px 25px;
-  border-block: 1px solid var(--border-prussian-blue);
-}
 
-.navbar .profile-card { margin-block-end: 15px; }
 
-.navbar .profile-card .card-title {
+.navbar {
   color: var(--text-columbia-blue);
   font-size: var(--fontSize-6);
   font-weight: var(--weight-semiBold);
 }
 
-.navbar .profile-card .card-subtitle { font-size: var(--fontSize-7); }
+.navbar{ font-size: var(--fontSize-7); }
 
-.navbar .link-list {
+.navbar {
   columns: 2;
   -webkit-columns: 2;
 }
 
-.navbar-bottom-link {
-  color: var(--text-alice-blue);
-  font-size: var(--fontSize-6);
-  padding-block: 6px;
-}
+
 
 .copyright-text {
   color: var(--text-alice-blue);
