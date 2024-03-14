@@ -111,3 +111,7 @@ window.addEventListener("resize", function () {
 
   moveSliderItem();
 });
+
+function errorfun(){
+  alert("Ups! We've not set up our Database yet!");
+}
