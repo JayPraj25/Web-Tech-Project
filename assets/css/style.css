@@ -863,7 +863,9 @@ body.nav-active { overflow: hidden; }
 
 .footer-text:not(.address) { margin-block: 20px; }
 
-.footer-brand .footer-list-title { margin-block-end: 2px; }
+.footer-brand .footer-list-title { 
+  margin-block-end: 2px;
+ }
 
 .footer-list-title {
   color: var(--text-columbia-blue);
