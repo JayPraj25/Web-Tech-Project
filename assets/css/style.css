@@ -432,7 +432,7 @@ body.nav-active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
-.hero-bg { display: none; }
+
 
 .hero { padding-block-start: calc(var(--section-padding) + 160px); }
 
@@ -1045,21 +1045,7 @@ body.nav-active { overflow: hidden; }
 
   .hero .input-wrapper { max-width: 390px; }
 
-  .hero-bg {
-    display: block;
-    position: absolute;
-    pointer-events: none;
-  }
-
-  .hero-bg-1 {
-    top: 80px;
-    left: 0;
-  }
-
-  .hero-bg-2 {
-    bottom: -200px;
-    left: -20px;
-  }
+  
 
   .shape-2 { left: 60px; }
 
