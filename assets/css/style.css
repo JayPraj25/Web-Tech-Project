@@ -429,30 +429,30 @@ body.nav-active { overflow: hidden; }
 
 
 /*-----------------------------------*\
-  #HERO
+  #girl
 \*-----------------------------------*/
 
 
 
-.hero { padding-block-start: calc(var(--section-padding) + 160px); }
+.girl { padding-block-start: calc(var(--section-padding) + 160px); }
 
-.hero .container {
+.girl .container {
   display: grid;
   gap: 50px;
 }
 
-.hero-subtitle {
+.girl-subtitle {
   font-size: var(--fontSize-6);
   font-weight: var(--weight-bold);
 }
 
-.hero .section-title { margin-block: 20px; }
+.girl .section-title { margin-block: 20px; }
 
-.hero .hero-text { margin-block-end: 40px; }
+.girl .girl-text { margin-block-end: 40px; }
 
-.hero .input-wrapper:hover { box-shadow: var(--shadow-2); }
+.girl .input-wrapper:hover { box-shadow: var(--shadow-2); }
 
-.hero .input-wrapper {
+.girl .input-wrapper {
   position: relative;
   padding: 10px;
   padding-inline-start: 20px;
@@ -464,33 +464,33 @@ body.nav-active { overflow: hidden; }
   transition: var(--transition-1);
 }
 
-.hero .input-field { padding-inline-end: 5px; }
+.girl .input-field { padding-inline-end: 5px; }
 
-.hero-banner { position: relative; }
+.girl-banner { position: relative; }
 
-.hero-banner .w-100 {
+.girl-banner .w-100 {
   max-width: max-content;
   margin-inline: auto;
 }
 
-.hero .shape {
+.girl .shape {
   position: absolute;
   z-index: -1;
 
-  animation: heroDecoAnim 3s linear infinite alternate;
+  animation: girlDecoAnim 3s linear infinite alternate;
 }
 
-@keyframes heroDecoAnim {
+@keyframes girlDecoAnim {
   0% { transform: translateY(40px) rotate(0); }
   100% { transform: translateY(0) rotate(0.4turn); }
 }
 
-.hero .shape-1 {
+.girl .shape-1 {
   top: 50px;
   right: 40px;
 }
 
-.hero .shape-2 {
+.girl .shape-2 {
   bottom: 20px;
   left: 24px;
 }
@@ -778,6 +778,11 @@ body.nav-active { overflow: hidden; }
   #BACK TO TOP
 \*-----------------------------------*/
 
+.footer-grpName{
+  color: white;
+  font-weight: 1000;
+}
+
 .back-top-btn {
   position: fixed;
   bottom: 20px;
@@ -871,12 +876,12 @@ body.nav-active { overflow: hidden; }
 
 
   /**
-   * HERO
+   * girl
    */
 
-  .hero { position: relative; }
+  .girl { position: relative; }
 
-  .hero .input-wrapper { max-width: 390px; }
+  .girl .input-wrapper { max-width: 390px; }
 
   
 
@@ -999,12 +1004,12 @@ body.nav-active { overflow: hidden; }
 
 
   /**
-   * HERO
+   * girl
    */
 
-  .hero { padding-block-start: calc(var(--section-padding) + 80px); }
+  .girl { padding-block-start: calc(var(--section-padding) + 80px); }
 
-  .hero .container {
+  .girl .container {
     grid-template-columns: 1fr 1fr;
     align-items: center;
   }
@@ -1127,10 +1132,10 @@ body.nav-active { overflow: hidden; }
 
 
   /**
-   * HERO
+   * girl
    */
 
-  .hero .container { max-width: 1050px; }
+  .girl .container { max-width: 1050px; }
 
 
 
