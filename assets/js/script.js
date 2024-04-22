@@ -112,6 +112,11 @@ window.addEventListener("resize", function () {
   moveSliderItem();
 });
 
-function errorfun(){
-  alert("Ups! We've not set up our Database yet!");
-}
+function openNewPage() {
+        // Replace 'new-page.html' with the actual path to your HTML page
+        window.location.href = 'new.html';
+    }
+
+
+
+
