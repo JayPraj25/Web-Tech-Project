@@ -113,7 +113,7 @@ window.addEventListener("resize", function () {
 });
 
 function openNewPage() {
-        // Replace 'new-page.html' with the actual path to your HTML page
+       
         window.location.href = 'subscribe.html';
     }
 
